@@ -1,0 +1,156 @@
+# ==========================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ==========================================
+
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Keep example environment files
+!.env.example
+
+
+# ==========================================
+# FRONTEND - React / Vite
+# ==========================================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Vite cache
+frontend/node_modules/.vite/
+
+# Local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+
+# ==========================================
+# BACKEND - Python / FastAPI
+# ==========================================
+
+backend/venv/
+backend/.venv/
+backend/env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+
+# ==========================================
+# DATABASE / LOCAL DATA
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL local files
+postgres_data/
+
+
+# ==========================================
+# QDRANT
+# ==========================================
+
+qdrant_storage/
+qdrant_data/
+
+
+# ==========================================
+# LOGS
+# ==========================================
+
+*.log
+logs/
+
+
+# ==========================================
+# UPLOADED FILES
+# ==========================================
+
+uploads/
+backend/uploads/
+frontend/uploads/
+
+# Temporary OCR files
+ocr_temp/
+temp/
+
+
+# ==========================================
+# BUILD / CACHE
+# ==========================================
+
+.cache/
+.tmp/
+tmp/
+
+
+# ==========================================
+# IDE / EDITOR
+# ==========================================
+
+.vscode/
+.idea/
+
+# VS Code settings (optional)
+*.code-workspace
+
+
+# ==========================================
+# OS FILES
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+
+# ==========================================
+# COVERAGE / TEST REPORTS
+# ==========================================
+
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.pytest_cache/
+
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+
+
+# ==========================================
+# GENERATED FILES
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
